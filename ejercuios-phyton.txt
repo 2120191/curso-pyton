@@ -289,8 +289,6 @@ while contador < n:
 
 
 
-EJERCICIO 16:
-
 # Inicializar la lista de tareas pendientes
 tareas = []
 
