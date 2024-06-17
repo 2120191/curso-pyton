@@ -113,16 +113,16 @@ alumnos("anthony","cruces";"desaprobado")
 ```
 ## desempaquetados/empauquetados(tarea)
 
-##Empaquetar/Desempaquetar argumentos
+## Empaquetar/Desempaquetar argumentos
 Python nos ofrece la posibilidad de empaquetar y desempaquetar argumentos cuando estamos invocando a una función, tanto para argumentos posicionales como para argumentos nominales.
 Y de esto se deriva el hecho de que podamos utilizar un número variable de argumentos en una función, algo que puede ser muy interesante según el caso de uso que tengamos.
-##Empaquetar/Desempaquetar argumentos posicionales
+## Empaquetar/Desempaquetar argumentos posicionales
 Si utilizamos el operador * delante del nombre de un parámetro posicional, estaremos indicando que los argumentos pasados a la función se empaqueten en una tupla.
 ```sum(4, 3, 2, 1)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: sum() takes at most 2 arguments
-##Empaquetar/Desempaquetar argumentos nominales
+## Empaquetar/Desempaquetar argumentos nominales
 Si utilizamos el operador ** delante del nombre de un parámetro nominal, estaremos indicando que los argumentos pasados a la función se empaqueten en un diccionario.
 Supongamos un ejemplo en el que queremos encontrar la persona con mayor calificación de un examen. Haremos uso del ** para empaquetar los argumentos nominales:
 def best_student(**marks):
