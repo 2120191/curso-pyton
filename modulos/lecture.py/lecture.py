@@ -13,7 +13,14 @@ def producto(a,b):
      """funcion de producto"""
      return a*b
 # importacion directa
+
 import operaciones
 suma:int=operaciones,suma(7,8)
 msj:str=operaciones.mensaje
+print(suma)
+
+import operaciones
+suma:int=operaciones,suma(7,8)
+msj:str=f"{operaciones.mensaje},
+como estas"
 print(suma)
